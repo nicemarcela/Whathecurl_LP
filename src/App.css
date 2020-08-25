@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+body {
+  background: linear-gradient(272deg, #97f5dd, #b351da, #fc6dca);
+  background-size: 600% 600%;
+
+  -webkit-animation: gradientAnimation 20s ease infinite;
+  -moz-animation: gradientAnimation 20s ease infinite;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimation {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes gradientAnimation {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes gradientAnimation {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-family: 'Shrikhand', cursive;
+  font-size: 42px;
+  font-weight: 500;
+  color: #fa8eea;
+  -webkit-text-stroke: 1.5px #320094;
+  text-shadow:
+       3px 3px 0 #f1ff6e,
+     -1px -1px 0 #f1ff6e,  
+      1px -1px 0 #f1ff6e,
+      -1px 1px 0 #f1ff6e,    
+       1px 1px 0 #f1ff6e;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-us {
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border: 2px solid rgba(0,0,0,1);
+  box-shadow: 15px 15px 1px #f8a4eb, 15px 15px 1px 2px #000000;
+  width: 197px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+
+}
+
+input {
+  width: 100%;
+    font-size: 10pt;
+    line-height: 13pt;
+    font-family: 'Fjalla One';
+    margin-bottom: 25pt;
+    border: none;
+    border-bottom: 4px solid rgba(0,0,0,1);
+    background: #f8f4e5;
+    min-width: 150px;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+  
+input:focus {
+  border-bottom: 5px solid #f8a4eb;
+}
+  
+button {
+  display: block;
+  margin: 0 auto;
+  line-height: 28pt;
+  padding: 0 20px;
+  background: #f8a4eb;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0,0,0,1);
+  box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0,0,0,1);
+}
+
+button:hover {
+    background: #97f5dd;
+    color: white;
+    border: 1px solid rgba(0,0,0,1);
+  }
+
+  
+::selection {
+  background: #ffc8ff;
+}  
+
+button img {
+    display: flex;
+    padding: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  }
+
+.star {
+  width: 350px;
+  position: absolute;
+  top: 99%;
+  left: 75%;
+  transform: translate(-61%, -21%);
+}
+
+.curl {
+    width: 350px;
+    position: absolute;
+    top: 99%;
+    left: 75%;
+    transform: translate(-61%, -21%);
+}
+
+.waves {
+  width: 350px;
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  transform: translate(-60%, -20%);
+}
+
+.heart {
+  width: 30px;
+  position: absolute;
+  top: 203%;
+  left: 56%;
+  transform: translate(-60%, -20%);
+}
+
+.polish {
+  width: 300px;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    transform: translate(-60%, -20%);
+}
+
+.folder {
+  width: 90px;
+  position: absolute;
+  top: 9%;
+  left: 91%;
+  transform: translate(-60%, -20%);
+}
+
+.folder2 {
+  width: 90px;
+  position: absolute;
+  top: 38%;
+  left: 91%;
+  transform: translate(-60%, -20%);
+}
+
+footer {
+  margin-top: 80px;
+  font-family: 'Comfortaa', cursive;
+}
