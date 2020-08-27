@@ -103,7 +103,7 @@ input:focus {
 }
 
 button {
-  display: block;
+  display: flex;
   margin: 0 auto;
   line-height: 28pt;
   padding: 0 20px;
@@ -113,11 +113,12 @@ button {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 1);
   box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 
 button:hover {
   background: #97f5dd;
-  color: white;
+  color: rgb(46, 0, 77);
   border: 1px solid rgba(0, 0, 0, 1);
 }
 
@@ -130,6 +131,18 @@ button img {
   padding: inherit;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+button p {
+  display: contents;
+  font-size: 14px;
+  font-family: "Comfortaa";
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .star {

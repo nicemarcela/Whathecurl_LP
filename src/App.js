@@ -15,7 +15,7 @@ function App() {
         <img className="curl" src={Curl} alt="" />
         <img className="waves" src={Waves} alt="" />
         {/* <img className="star" src={Star} alt="" /> */}
-        
+
         <img className="polish" src={Polish} alt="" />
         <a href="https://www.instagram.com/whathecurl" target="_blank" rel="noopener noreferrer">
           <img title="Instagram" className="folder" src={Folder} alt="" />
@@ -26,26 +26,41 @@ function App() {
         </p>
       </header>
 
+
       <div className="contact-us">
-        <form>
+      <div id="mc_embed_signup">
+        <form action="https://whathecurl.us17.list-manage.com/subscribe/post?u=dcb0fe74937e55e28c5843b7a&amp;id=8fa0cc2c6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
           <h4>Make sure to get your pass</h4>
-          <label>
-            <input style={{ fontFamily: "Comfortaa" }} placeholder="Email" type="email" name="customerEmail" />
-          </label>
-          <button className="" type="submit" >
+            <div className="mc-field-group">
+              <label for="mce-EMAIL">
+              <input required style={{ fontFamily: "Comfortaa" }} placeholder="Email*" type="email" name="customerEmail" id="mce-EMAIL"  />
+              </label>
+              
+            </div>
+          <div id="mce-responses" className="clear">
+            <div className="response" id="mce-error-response" style={{display:"none"}}></div>
+            <div className="response" id="mce-success-response" style={{display:"none"}}></div>
+          </div>
+          <button id="mc-embedded-subscribe" className="" type="submit" > 
+          <div className="btn-content">
+            <p>Go</p>
             <img src="https://img.icons8.com/ios/28/000000/starred-ticket.png" alt="" />
+          </div>
           </button>
         </form>
       </div>
+      </div>
 
-      <footer>
-        <div className="footer">
-          <a style={{ textDecoration: "none" }} href="https://www.instagram.com/whathecurl" target="_blank" rel="noopener noreferrer">@whathecurl</a>
-          <img className="heart" src={Like} alt="" />
-        </div>
-      </footer>
-      {/* <img style={{width: "200px"}} src={Minhoca} alt="" /> */}
-    </div>
+
+    <footer>
+      <div className="footer">
+        <a style={{ textDecoration: "none" }} href="https://www.instagram.com/whathecurl" target="_blank" rel="noopener noreferrer">@whathecurl</a>
+        <img className="heart" src={Like} alt="" />
+      </div>
+    </footer>
+                  {/* <img style={{width: "200px"}} src={Minhoca} alt="" /> */ }
+                </div >
+              
   );
 }
 
