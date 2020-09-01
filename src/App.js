@@ -7,6 +7,7 @@ import Folder from './img/lightpinkfolder1.png';
 import Polish from './img/purplepolish.png';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,7 @@ function App() {
             <div className="mc-field-group">
               <label for="mce-EMAIL">
                 <input
-                  required type="email" name="EMAIL" id="mce-EMAIL" />
+                  required placeholder="YOUR EMAIL" type="email" name="EMAIL" id="mce-EMAIL" />
               </label>
 
             </div>
@@ -43,7 +44,7 @@ function App() {
               <div className="response" id="mce-success-response" style={{ display: "none" }}></div>
             </div>
             <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
-              <input type="text" name="b_dcb0fe74937e55e28c5843b7a_8fa0cc2c6e" tabindex="-1" value="" />
+              <input type="text" name="b_dcb0fe74937e55e28c5843b7a_8fa0cc2c6e" tabIndex="-1" defaultValue="" />
             </div>
             <div className="clear">
               <button type="submit" name="subscribe" id="mc-embedded-subscribe" className="button">
