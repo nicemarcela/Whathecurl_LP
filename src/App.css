@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
   background: linear-gradient(272deg, #f871c9, #b351da, #97f5dd);
   background-size: 600% 600%;
@@ -49,20 +51,48 @@ body {
   text-align: center;
 }
 
-.App-header {
-  font-family: 'Shrikhand', cursive;
-  font-size: 48px;
-  font-weight: 500;
-  color: #fa8eea;
-  -webkit-text-stroke: 1.5px #320094;
-  text-shadow: 3px 3px 0 #f1ff6e, -1px -1px 0 #f1ff6e, 1px -1px 0 #f1ff6e, -1px 1px 0 #f1ff6e, 1px 1px 0 #f1ff6e;
-  min-height: 45vh;
+.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
+  height: 200px;
 }
+
+.logo h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 42px;
+  color: #fffb0e;
+  -webkit-text-stroke: 1.5px #020102;
+  margin: 0;
+}
+
+.icon {
+  width: 128px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.App-header {
+  font-family: 'Shrikhand', cursive;
+  font-size: 48px;
+  font-weight: 500;
+  color: #e94ac6;
+  -webkit-text-stroke: 2px #320094;
+  text-shadow: 3px 3px 0 #f1ff6e, -1px -1px 0 #f1ff6e, 1px -1px 0 #f1ff6e, -1px 1px 0 #f1ff6e, 1px 1px 0 #f1ff6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.App-header p {
+  margin-top: 0;
+  line-height: 1.125;
+}
+
 
 .contact-us {
   background: #f8f4e5;
@@ -80,11 +110,14 @@ body {
 }
 
 h4 {
-  font-family: 'Comfortaa', cursive;
-  font-size: 18px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  font-weight: 100;
+  color: #5b3082;
 }
 
 input {
+  font-family: 'Fredoka One', cursive;
   width: 100%;
   font-size: 10pt;
   line-height: 13pt;
@@ -95,11 +128,11 @@ input {
   background: #f8f4e5;
   min-width: 150px;
   outline: none;
-  color: rgba(0, 0, 0, 1);
+  color: #5b3082;
 }
 
 input:focus {
-  border-bottom: 5px solid #f8a4eb;
+  border-bottom: 5px solid #e94ac6;
 }
 
 button {
@@ -107,7 +140,7 @@ button {
   margin: 0 auto;
   line-height: 28pt;
   padding: 0 20px;
-  background: #f8a4eb;
+  background: #97f5dd;
   letter-spacing: 2px;
   transition: .2s all ease-in-out;
   outline: none;
@@ -117,7 +150,7 @@ button {
 }
 
 button:hover {
-  background: #97f5dd;
+  background: #F02DC5;
   color: rgb(46, 0, 77);
   border: 1px solid rgba(0, 0, 0, 1);
 }
@@ -136,7 +169,8 @@ button img {
 button p {
   display: contents;
   font-size: 14px;
-  font-family: "Comfortaa";
+  font-family: 'Fredoka One', cursive;
+  font-weight: 100;
 }
 
 .btn-content {
@@ -145,8 +179,9 @@ button p {
     align-items: flex-end;
 }
 
+
 .star {
-  width: 350px;
+  width: 100px;
   position: absolute;
   top: 99%;
   left: 75%;
@@ -156,16 +191,16 @@ button p {
 .curl {
   width: 350px;
   position: absolute;
-  top: 99%;
+  top: 123%;
   left: 75%;
   transform: translate(-61%, -21%);
 }
 
 .waves {
-  width: 350px;
+  width: 389px;
   position: absolute;
-  top: 15%;
-  left: 8%;
+  top: -72%;
+  left: 9%;
   transform: translate(-60%, -20%);
 }
 
@@ -188,15 +223,7 @@ button p {
 .folder {
   width: 90px;
   position: absolute;
-  top: 9%;
-  left: 91%;
-  transform: translate(-60%, -20%);
-}
-
-.folder2 {
-  width: 90px;
-  position: absolute;
-  top: 38%;
+  top: -78%;
   left: 91%;
   transform: translate(-60%, -20%);
 }
@@ -221,7 +248,8 @@ button p {
   }
 
   header p {
-    font-size: 36px; 
+    font-size: 39px;
+    padding-top: inherit;
   }
 
   .waves {
@@ -238,10 +266,10 @@ button p {
   }
 }
 
-/* @media only screen and (min-width: 768px) { 
+@media only screen and (max-width: 768px) { 
   .waves {
-    top: 88%;
-    left: 15%;
+    top: -51%;
+    left: 6%;
     z-index: -10;
   }
   .polish {
@@ -253,4 +281,9 @@ button p {
     left: 85%;
     width: 246px;
   }
-} */
+
+  .folder {
+    top: -68%;
+    left: 91%;
+  }
+}

@@ -5,25 +5,29 @@ import Waves from './img/gradient-waves.png';
 import Like from './img/heart.png';
 import Folder from './img/lightpinkfolder1.png';
 import Polish from './img/purplepolish.png';
+import Icon from './img/icon.png';
 
 
 
 function App() {
   return (
     <div className="App">
-
+      <div className="logo">
+      <img className="icon" src={Icon} alt="" />
+      <h1>What The Curl</h1>
+      </div>
+      
       <header className="App-header">
         <img className="curl" src={Curl} alt="" />
         <img className="waves" src={Waves} alt="" />
         {/* <img className="star" src={Star} alt="" /> */}
-
         <img className="polish" src={Polish} alt="" />
         <a href="https://www.instagram.com/whathecurl" target="_blank" rel="noopener noreferrer">
           <img title="Instagram" className="folder" src={Folder} alt="" />
         </a>
         {/* <img  className="folder2" src={Folder} alt="" /> */}
         <p>
-          Curated curl lifestyle and inspo <br />landing on your screen soon.
+          Curated curl lifestyle and inspo <br/>landing on your screen soon.
         </p>
       </header>
 
