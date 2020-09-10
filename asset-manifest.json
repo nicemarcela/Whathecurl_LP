@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Whathecurl_LP/static/css/main.8aa57278.chunk.css",
+    "main.js": "/Whathecurl_LP/static/js/main.8cf1a4ea.chunk.js",
+    "main.js.map": "/Whathecurl_LP/static/js/main.8cf1a4ea.chunk.js.map",
+    "runtime-main.js": "/Whathecurl_LP/static/js/runtime-main.843cabb6.js",
+    "runtime-main.js.map": "/Whathecurl_LP/static/js/runtime-main.843cabb6.js.map",
+    "static/js/2.f22156f3.chunk.js": "/Whathecurl_LP/static/js/2.f22156f3.chunk.js",
+    "static/js/2.f22156f3.chunk.js.map": "/Whathecurl_LP/static/js/2.f22156f3.chunk.js.map",
+    "index.html": "/Whathecurl_LP/index.html",
+    "precache-manifest.ca7ad9f58c6545ba23d31b6ec0181b90.js": "/Whathecurl_LP/precache-manifest.ca7ad9f58c6545ba23d31b6ec0181b90.js",
+    "service-worker.js": "/Whathecurl_LP/service-worker.js",
+    "static/css/main.8aa57278.chunk.css.map": "/Whathecurl_LP/static/css/main.8aa57278.chunk.css.map",
+    "static/js/2.f22156f3.chunk.js.LICENSE.txt": "/Whathecurl_LP/static/js/2.f22156f3.chunk.js.LICENSE.txt",
+    "static/media/curl.png": "/Whathecurl_LP/static/media/curl.8e71c864.png",
+    "static/media/gradient-waves.png": "/Whathecurl_LP/static/media/gradient-waves.f50837b1.png",
+    "static/media/heart.png": "/Whathecurl_LP/static/media/heart.43cd7cc4.png",
+    "static/media/lightpinkfolder1.png": "/Whathecurl_LP/static/media/lightpinkfolder1.3adecfe7.png",
+    "static/media/purplepolish.png": "/Whathecurl_LP/static/media/purplepolish.c30d59d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.843cabb6.js",
+    "static/js/2.f22156f3.chunk.js",
+    "static/css/main.8aa57278.chunk.css",
+    "static/js/main.8cf1a4ea.chunk.js"
+  ]
+}
