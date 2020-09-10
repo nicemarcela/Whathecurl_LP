@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8aa57278.chunk.css",
-    "main.js": "/static/js/main.135289e6.chunk.js",
-    "main.js.map": "/static/js/main.135289e6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7dd74c90.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7dd74c90.js.map",
-    "static/js/2.f22156f3.chunk.js": "/static/js/2.f22156f3.chunk.js",
-    "static/js/2.f22156f3.chunk.js.map": "/static/js/2.f22156f3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.90528b97895069d7d2bd5bb4e794386d.js": "/precache-manifest.90528b97895069d7d2bd5bb4e794386d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8aa57278.chunk.css.map": "/static/css/main.8aa57278.chunk.css.map",
-    "static/js/2.f22156f3.chunk.js.LICENSE.txt": "/static/js/2.f22156f3.chunk.js.LICENSE.txt",
-    "static/media/curl.png": "/static/media/curl.8e71c864.png",
-    "static/media/gradient-waves.png": "/static/media/gradient-waves.f50837b1.png",
-    "static/media/heart.png": "/static/media/heart.43cd7cc4.png",
-    "static/media/lightpinkfolder1.png": "/static/media/lightpinkfolder1.3adecfe7.png",
-    "static/media/purplepolish.png": "/static/media/purplepolish.c30d59d9.png"
+    "main.css": "/whathecurl/static/css/main.8aa57278.chunk.css",
+    "main.js": "/whathecurl/static/js/main.bf2bbc33.chunk.js",
+    "main.js.map": "/whathecurl/static/js/main.bf2bbc33.chunk.js.map",
+    "runtime-main.js": "/whathecurl/static/js/runtime-main.fdf3f94a.js",
+    "runtime-main.js.map": "/whathecurl/static/js/runtime-main.fdf3f94a.js.map",
+    "static/js/2.f22156f3.chunk.js": "/whathecurl/static/js/2.f22156f3.chunk.js",
+    "static/js/2.f22156f3.chunk.js.map": "/whathecurl/static/js/2.f22156f3.chunk.js.map",
+    "index.html": "/whathecurl/index.html",
+    "precache-manifest.ecb4bc501f596d760856741d1e572894.js": "/whathecurl/precache-manifest.ecb4bc501f596d760856741d1e572894.js",
+    "service-worker.js": "/whathecurl/service-worker.js",
+    "static/css/main.8aa57278.chunk.css.map": "/whathecurl/static/css/main.8aa57278.chunk.css.map",
+    "static/js/2.f22156f3.chunk.js.LICENSE.txt": "/whathecurl/static/js/2.f22156f3.chunk.js.LICENSE.txt",
+    "static/media/curl.png": "/whathecurl/static/media/curl.8e71c864.png",
+    "static/media/gradient-waves.png": "/whathecurl/static/media/gradient-waves.f50837b1.png",
+    "static/media/heart.png": "/whathecurl/static/media/heart.43cd7cc4.png",
+    "static/media/lightpinkfolder1.png": "/whathecurl/static/media/lightpinkfolder1.3adecfe7.png",
+    "static/media/purplepolish.png": "/whathecurl/static/media/purplepolish.c30d59d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dd74c90.js",
+    "static/js/runtime-main.fdf3f94a.js",
     "static/js/2.f22156f3.chunk.js",
     "static/css/main.8aa57278.chunk.css",
-    "static/js/main.135289e6.chunk.js"
+    "static/js/main.bf2bbc33.chunk.js"
   ]
 }
